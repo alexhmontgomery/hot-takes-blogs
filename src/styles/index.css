@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  height: 8vh;
+}
+
+main {
+  min-height: 84vh;
+  background: linear-gradient(red,yellow);
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+footer {
+  height: 8vh;
+}
