@@ -11,6 +11,11 @@ nav {
 main {
   min-height: 84vh;
   background: linear-gradient(red,yellow);
+  padding: 4%;
+}
+
+NavLink, a, button {
+  cursor: pointer;
 }
 
 .homepage {
@@ -23,6 +28,33 @@ main {
   text-align: center;
 }
 
+.homepage .card {
+  margin: 2% 4%;
+  text-align: center;
+}
+
+.link-blogger {
+  text-decoration: none;
+  color: red;
+}
+
+.each-blog h5, .each-blog h4 {
+  padding: 1%;
+  text-align: center;
+}
+
+.each-blog p {
+  border: 2px solid red;
+  padding: 2%;
+}
+
 footer {
   height: 8vh;
+  text-align: center;
+  padding: 1%;
+}
+
+form label {
+  color: white;
+  margin: 1%;
 }

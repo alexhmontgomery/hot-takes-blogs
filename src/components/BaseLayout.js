@@ -14,7 +14,7 @@ export default class BaseLayout extends Component {
               <NavLink className='nav-link' to='/create'>New take</NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink className='nav-link' to='#'>See all the takes</NavLink>
+              <NavLink className='nav-link' exact to='/show'>See all the takes</NavLink>
             </li>
           </ul>
         </nav>
